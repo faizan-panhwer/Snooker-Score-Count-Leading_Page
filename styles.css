@@ -160,13 +160,18 @@ body{
 
 /* max 520px: Mobile devices. */
 @media only screen and (max-width: 520px){
-
+    .logo img{
+   
+        position: absolute;
+        width: 150px;
+        left: 10px;
+        top: 15px;
+    }
     .second{
         background: linear-gradient(150deg,hsl(240, 50%, 40%, 0.60), hsl(312, 100%, 50%, 0.60)) no-repeat,
                     url(images/mbl.jpg);
        
     }
-
     .intro {
         margin: 10px 60px 0 60px;
     }
@@ -175,7 +180,7 @@ body{
     }
 
     .main_h1{
-        margin-top: 212px;
+        margin-top: 140px;
         font-size: large;
     
     }
@@ -192,7 +197,13 @@ body{
 /* min: 521px | max: 520px Tab devices. */
 
 @media only screen and (min-width:521px) and (max-width: 768px){
-
+    .logo img{
+   
+        position: absolute;
+        width: 150px;
+        left: 10px;
+        top: 15px;
+    }
     .second{
         background: linear-gradient(150deg,hsl(240, 50%, 40%, 0.60), hsl(312, 100%, 50%, 0.60)) no-repeat,
                     url(images/tab.jpg);
@@ -207,7 +218,7 @@ body{
     }
 
     .main_h1{
-        margin-top: 162px;
+        margin-top: 90px;
         font-size: x-large;
     
     }
@@ -218,6 +229,13 @@ body{
 
 @media only screen and (min-width:769px) and (max-width: 1024px){
 
+    .logo img{
+   
+        position: absolute;
+        width: 150px;
+        left: 10px;
+        top: 15px;
+    }
     .second{
         background: linear-gradient(150deg,hsl(240, 50%, 40%, 0.60), hsl(312, 100%, 50%, 0.60)) no-repeat,
                     url(images/tab.jpg);
@@ -243,7 +261,13 @@ body{
 
 /* min: 1025 | max: 1200px Large screens, Desktops. */
 @media only screen and (min-width:1025px) and (max-width: 1200px){
-
+    .logo img{
+   
+        position: absolute;
+        width: 150px;
+        left: 10px;
+        top: 15px;
+    }
 
     .intro{
         margin: 10px 110px 0px 110px;
@@ -259,7 +283,13 @@ body{
 /* min: 1201 Large screens, Desktops. */
 @media only screen and (min-width:1201px){
 
-
+    .logo img{
+   
+        position: absolute;
+        width: 150px;
+        left: 10px;
+        top: 20px;
+    }
     .intro{
         margin: 10px 190px 0px 190px;
     }
