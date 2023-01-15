@@ -1,0 +1,270 @@
+body{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+.btn-outline-light {
+    margin: 10px;
+}
+
+.logo img{
+   
+    position: absolute;
+    width: 150px;
+    left: 63px;
+    top: 18px;
+}
+
+#navbarNav ul {
+    margin-top: 10px;
+    
+}
+
+#navbarNav ul li a {
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    transition: 0.4s;
+    font-weight: lighter;
+    
+   
+}
+
+
+#navbarNav ul li a:hover {
+
+    
+    border-bottom: 0.8px solid white;
+    padding-right: 15px;
+    
+  
+}
+
+.second{
+    margin-bottom: 0px;
+    height: 937px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(150deg,hsl(240, 50%, 40%, 0.60), hsl(312, 100%, 50%, 0.60)) no-repeat,
+                url(images/first.jpg);
+   
+}
+
+.main_h1{
+    margin-top: 100px;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    padding-top: 6.5em;
+
+}
+
+.sub_main{
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: large;
+}
+
+.intro {
+    line-height: 150%;
+    text-align: justify;
+    color: white;
+    font-weight: medium;
+
+    margin: 10px 190px 0px 190px;
+}
+
+.short {
+    line-height: 150%;
+    text-align: center;
+    color: white;
+    font-weight: medium;
+}
+.btnstart .mainbtn  {
+
+    padding: 10px;
+    border: 0.5px solid white;
+    background: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+
+}
+
+
+.btnstart .mainbtn:hover {
+    text-decoration: none;
+    background-color:white;
+    color: black;
+}
+
+
+
+/* Modified Bootstrap. */
+
+.carousel-item .socialimg img{
+
+    display: inline;
+    padding: 5px;
+    width: 30px;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.carousel-item .socialimg a {
+
+   text-decoration: none;
+}
+
+
+.carousel-item .socialimg {
+
+    padding-top: 15px;
+
+}
+
+.carousel-item .socialimg img:hover {
+
+    border: 0.5px solid white;
+}
+
+.carousel-indicators{
+
+    top: 800px;
+    position: absolute;
+ }
+ 
+.carousel-control-next-icon  {
+
+    position: absolute;
+    top: 400px;
+}
+
+
+.carousel-control-prev-icon  {
+
+    position: absolute;
+    top: 400px;
+}
+
+.work{
+
+    text-align: center;
+    color: white;
+    margin-top: 300px;
+}
+
+
+/* max 520px: Mobile devices. */
+@media only screen and (max-width: 520px){
+
+    .second{
+        background: linear-gradient(150deg,hsl(240, 50%, 40%, 0.60), hsl(312, 100%, 50%, 0.60)) no-repeat,
+                    url(images/mbl.jpg);
+       
+    }
+
+    .intro {
+        margin: 10px 60px 0 60px;
+    }
+    .short{
+        margin: 10px 50px 0 50px;
+    }
+
+    .main_h1{
+        margin-top: 212px;
+        font-size: large;
+    
+    }
+    
+    .sub_main{
+        color: white;
+        text-align: center;
+        font-weight: lighter;
+        font-size: large;
+    }
+
+}
+
+/* min: 521px | max: 520px Tab devices. */
+
+@media only screen and (min-width:521px) and (max-width: 768px){
+
+    .second{
+        background: linear-gradient(150deg,hsl(240, 50%, 40%, 0.60), hsl(312, 100%, 50%, 0.60)) no-repeat,
+                    url(images/tab.jpg);
+       
+    }
+    .intro{
+        margin: 10px 70px 0 70px;
+    }
+
+    .short{
+        margin: 10px 70px 0 70px;
+    }
+
+    .main_h1{
+        margin-top: 162px;
+        font-size: x-large;
+    
+    }
+}
+
+
+/* min: 769px | max: 1024px Small screens, laptops devices. */
+
+@media only screen and (min-width:769px) and (max-width: 1024px){
+
+    .second{
+        background: linear-gradient(150deg,hsl(240, 50%, 40%, 0.60), hsl(312, 100%, 50%, 0.60)) no-repeat,
+                    url(images/tab.jpg);
+       
+    }
+
+    .intro{
+        margin: 10px 90px 0px 90px;
+    }
+
+    .short{
+        margin: 10px 80px 0 80px;
+    }
+
+    .main_h1{
+        margin-top: 100px;
+        font-size: xx-large;
+    
+    }
+}
+
+
+
+/* min: 1025 | max: 1200px Large screens, Desktops. */
+@media only screen and (min-width:1025px) and (max-width: 1200px){
+
+
+    .intro{
+        margin: 10px 110px 0px 110px;
+    }
+
+    .short{
+        margin: 10px 90px 0 90px;
+    }
+}
+    
+
+
+/* min: 1201 Large screens, Desktops. */
+@media only screen and (min-width:1201px){
+
+
+    .intro{
+        margin: 10px 190px 0px 190px;
+    }
+
+    .short{
+        margin: 10px 100px 0 100px;
+    }
+}
